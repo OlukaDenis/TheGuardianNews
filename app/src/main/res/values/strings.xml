@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">The Guardian News</string>
+    <string name="no_results">No Results Available</string>
+    <string name="no_internet">Check Your Internet Connection</string>
+</resources>

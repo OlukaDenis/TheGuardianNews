@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.mcdenny.android.news.ui.MainActivity">
+
+    <ProgressBar
+        android:id="@+id/loader"
+        style="?android:progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/feedback_splash_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#f00"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text=""
+        android:layout_centerInParent="true"/>
+
+    <GridView
+        android:id="@+id/news_list_view"
+        android:padding="5dp"
+        android:numColumns="1"
+        android:verticalSpacing="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </GridView>
+</RelativeLayout>
